@@ -1,0 +1,50 @@
+.intro-body {
+    width: 40rem;
+    height : 20rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+span {
+    font-size: 15px;
+}
+
+hr {
+    width: 15rem;
+    border : 1px dashed white;
+    opacity: 0.5;
+    margin-top: 1rem;
+}
+
+.intro-left-body {
+    background-color: blue;
+    width: 15rem;
+
+}
+
+.intro-right-body {
+    width: 20rem;
+    text-align: left;
+    padding : 5px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+#name_text {
+    font-size: 30px;
+    font-weight: bold;
+    color : lightgrey;
+}
+
+#name_domain {
+    color : grey;
+}
+
+#name_introduce {
+    color : lightgrey;
+    font-size : 12px;
+    width : 15rem;
+    padding-top: 5px;
+}
