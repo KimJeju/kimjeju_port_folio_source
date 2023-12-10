@@ -3,8 +3,10 @@
     height : 20rem;
     display: flex;
     justify-content: space-between;
-
+    transition: 0.5s;
+    
 }
+
 
 span {
     font-size: 15px;
@@ -20,7 +22,6 @@ hr {
 .intro-left-body {
     background-color: blue;
     width: 15rem;
-
 }
 
 .intro-right-body {
@@ -48,3 +49,35 @@ hr {
     width : 15rem;
     padding-top: 5px;
 }
+
+@media (max-width: 800px) {
+    .intro-body {
+        display: flex;
+        flex-direction: column;
+        height : 40rem;
+        width : 25em;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .intro-left-body {
+       width: 20rem;
+       background-color: blue;
+    }
+    
+    .intro-right-body {
+        width: 20rem;
+        display: flex;
+    }
+
+    #name_introduce {
+        color : lightgrey;
+        width: 20rem;
+    }
+
+    hr {
+        width: 20rem;
+    }
+    
+  }

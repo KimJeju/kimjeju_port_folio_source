@@ -34,6 +34,12 @@ const OpenContainer = styled.div`
     &:hover{
         box-shadow: 10px 10px white;
     }
+
+    @media only screen and (max-width: 800px) {
+        width: 25rem;
+        height : 40rem;
+      }
+
 `
 
 
