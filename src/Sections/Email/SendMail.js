@@ -132,11 +132,9 @@ function SendMail({ setOpenMailModal }) {
             )
             .then((response) => {
                 Swal.fire({
-                    text: "이메일이 성공적으로 보내졌습니다.",
+                    text: "메일이 성공적으로 보내졌습니다.",
                     icon: "success",
                     title: "메일 보내기",
-                    showCancelButton: true,
-                    confirmButtonText: "확인",
                 })
                 setIsEmailSent(true);
                 setOpenMailModal(false);
