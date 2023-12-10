@@ -1,7 +1,35 @@
+import { useState } from "react"
+import styled from "styled-components";
 import "../../Styles/intro.css"
+import ModalPage from "../Modal/ModalPage";
+
+const Button = styled.button`
+    background-color : #3A00F5; 
+    color : white;
+    border : none;
+    width : 10rem;
+    height : 50px;
+    font-size : 15px;
+    transition : 0.5s;
+    margin-top : 20px;
+    border-radius : 5px;
+
+    &:hover{
+        background-color : white;
+        border-radius : 25px;
+        color : black;
+    }
+`
 
 function Intro()
 {
+    //Modal 영역
+    const [ openModal, setOpenModal ] = useState(false);
+
+    function showModal(){
+        setOpenModal(true);
+    }
+
     return (
         <div className="intro-body">
             <div className="intro-left-body">
@@ -16,6 +44,9 @@ function Intro()
                     <p id="name_introduce">주로 서버개발 및 인프라 구축, 운영 배포 쪽의 업무를 맡고 있습니다. </p>
                     <p id="name_introduce">저는 오늘 날 작성한 코드를 첨삭하는 과정에서 더 나은 가독성 및 생산성을 확보하는 작업을 즐기며 개발을 하고 있습니다!</p>
                     <p id="name_introduce">저에 대해 궁금하시다면 언제든 연락주세요 ! 감사합니다.</p>
+
+                    <Button onClick={showModal}>View More</Button>
+                    {openModal && <ModalPage setOpenModal={setOpenModal} />}
             </div>
         </div>
     )
