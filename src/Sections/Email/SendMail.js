@@ -78,7 +78,7 @@ const SendButton = styled.button`
     border : none;
     background-color : #01A488;
     color : black;
-    transition : 0.5s;
+    transition : 0.7s;
 
     &:hover{
         background-color : #005C53;
