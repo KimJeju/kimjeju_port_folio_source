@@ -59,15 +59,15 @@ const OpenContainer = styled.div`
 const Close = styled.button`
     // 버튼 오른쪽 최상단에 위치하도록 만들어주기
     position : absolute;
-    top : 10px;
-    right : 10px;
+    top : 15px;
+    right : 20px;
     
     //디자인 영역
     transition : 0.5s;
     width : 25px;
     height : 25px;
     transition : 0.5s;
-    background-color : #3A00F5;
+    background-color : #F23D3D;
     color : white;
     border : none;
 
