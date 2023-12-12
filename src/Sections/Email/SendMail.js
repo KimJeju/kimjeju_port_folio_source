@@ -18,20 +18,22 @@ const Background = styled.div`
 //모달 최상단 위치 시켜주기
 const OpenContainer = styled.div`
     width: 20rem;
-    height : 20rem;
-    background-color : black;
+    height : 25rem;
+    background-color : #222428;
+
 
     //최상단 위치
     z-index : 999;
 
     //가운데 위치 시키기
     position : absolute;
-    top : 50%;
-    left : 50%;
-    transform : translate(-50%, -50%);
+    top : 25%;
+    left : 25%;
+    transform : translate(-25%, -25%);
 
     border : 1px solid white;
     transition : 0.5s;
+    border-radius : 2px;
 
     display : flex;
     flex-direction : column;
@@ -62,7 +64,7 @@ const Close = styled.button`
     width : 25px;
     height : 25px;
     transition : 0.5s;
-    background-color : #3A00F5;
+    background-color : #F23D3D;
     color : white;
     border : none;
 
@@ -72,13 +74,19 @@ const Close = styled.button`
     }
 `
 
+const Textarea = styled.textarea`
+    height : 100px;
+`
+
 const SendButton = styled.button`
     witdh : 50px;
-    height : 30px;
+    height : 45px;
     border : none;
     background-color : #01A488;
     color : black;
     transition : 0.7s;
+    padding : 10px;
+    margin-top : 30px;
 
     &:hover{
         background-color : #005C53;
@@ -166,11 +174,11 @@ function SendMail({ setOpenMailModal }) {
                     <input type='tel' onChange={onChangePhone} value={phone} />
 
                     <Label>내용</Label>
-                    <textarea type='text' onChange={onChangeMessage} value={message} />
+                    <Textarea type='text' onChange={onChangeMessage} value={message} />
 
                 </InputContainer>
 
-                <h2>이메일 인증</h2>
+                <h2></h2>
                 {isEmailSent ? (
                     <p>
                         인증 이메일이 성공적으로 발송되었습니다. 이메일을

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../../Styles/App.css"
 import MyCareer from "./MyCareer";
 import MyInfo from "./MyInfo";
 
@@ -17,7 +18,10 @@ const Background = styled.div`
 const OpenContainer = styled.div`
     width: 1000px;
     height : 800px;
-    background-color : black;
+    background-color : #1E1D24;
+    font-family: WantedSans-Regular;
+
+
 
     //최상단 위치
     z-index : 999;
@@ -28,7 +32,7 @@ const OpenContainer = styled.div`
     left : 50%;
     transform : translate(-50%, -50%);
 
-    border : 1px solid white;
+    border : 1px dashed white;
 
     //내부 콘텐츠 정렬
     display : flex;
@@ -43,7 +47,10 @@ const OpenContainer = styled.div`
     @media only screen and (max-width: 800px) {
         width: 25rem;
         height : 40rem;
-      }
+        flex-direction : column;
+        overflow: scroll;
+        overflow-x : hidden;
+    }
 
 `
 
@@ -78,7 +85,7 @@ function ModalPage({ setOpenModal }) {
 
     return (
         <Background>
-            <OpenContainer>
+            <OpenContainer className="openContainer">
                 <Close onClick={closeModal}> X </Close>
             
                 <MyInfo />

@@ -92,3 +92,14 @@ body {
       transform: translateX(1);
   }
 }
+
+/* 스크롤바 없애기 */
+
+.openContainer {
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.openContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
