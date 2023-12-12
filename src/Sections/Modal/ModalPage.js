@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import MyCareer from "./MyCareer";
+import MyInfo from "./MyInfo";
 
 //뒷배경 어둡게 해주기
 const Background = styled.div`
@@ -13,8 +15,8 @@ const Background = styled.div`
 
 //모달 최상단 위치 시켜주기
 const OpenContainer = styled.div`
-    width: 40rem;
-    height : 40rem;
+    width: 1000px;
+    height : 800px;
     background-color : black;
 
     //최상단 위치
@@ -27,6 +29,9 @@ const OpenContainer = styled.div`
     transform : translate(-50%, -50%);
 
     border : 1px solid white;
+
+    //내부 콘텐츠 정렬
+    display : flex;
 
 
     transition : 0.5s;
@@ -75,6 +80,10 @@ function ModalPage({ setOpenModal }) {
         <Background>
             <OpenContainer>
                 <Close onClick={closeModal}> X </Close>
+            
+                <MyInfo />
+                <MyCareer />
+
             </OpenContainer>
         </Background>
     )
