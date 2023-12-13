@@ -4,6 +4,8 @@ import Position from "./Career/Position"
 import Stack from "./Career/Stack"
 import "../../Styles/App.css"
 import { useEffect, useState } from "react"
+import WorkHistory from "./Career/WorkHistory"
+import EducationHistory from "./Career/EducationHistory"
 
 
 const CareerContainer = styled.div`
@@ -38,14 +40,14 @@ function MyCareer() {
         window.addEventListener("resize", resizeListener);
     });
 
-    console.log("innerWidth", innerWidth);
-
     if (innerWidth < 800) {
         return (
             <CareerContainerMaxWidth800 className="openContainer">
                 <About />
                 <Position />
                 <Stack />
+                <EducationHistory />
+                <WorkHistory />
             </CareerContainerMaxWidth800>
         )
     } else {
@@ -54,6 +56,8 @@ function MyCareer() {
                 <About />
                 <Position />
                 <Stack />
+                <EducationHistory />
+                <WorkHistory />
             </CareerContainer>
         )
     }

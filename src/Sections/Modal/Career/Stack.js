@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import CicleProgress from "./CicleProgress"
-import ShareLine from "./ShareLine"
+import ShareLine from "../../../Share/ShareLine"
 
 
 const Container = styled.div`

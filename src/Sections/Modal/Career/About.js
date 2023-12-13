@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ShareLine from "./ShareLine";
+import ShareLine from "../../../Share/ShareLine";
 
 
 const Container = styled.div`
