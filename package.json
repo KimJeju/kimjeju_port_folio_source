@@ -2,7 +2,7 @@
   "name": "kunhwi-folio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/KimJeju/kimjeju.folio.git",
+  "homepage": "https://github.com/KimJeju/kimjeju_port_folio_source.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gb-page -d build"
   },
   "eslintConfig": {
     "extends": [
