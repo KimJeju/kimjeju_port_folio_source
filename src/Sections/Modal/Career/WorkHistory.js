@@ -25,10 +25,10 @@ justify-content : space-around;
 function WorkHistory(){
 
     return(
-        <>
+        <Container>
          <ShareLine title={"Work History"} />
          <TimeLine />
-        </>
+        </Container>
     )
 }
 

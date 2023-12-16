@@ -21,8 +21,6 @@ const OpenContainer = styled.div`
     background-color : #1E1D24;
     font-family: WantedSans-Regular;
 
-
-
     //최상단 위치
     z-index : 999;
 
@@ -31,8 +29,6 @@ const OpenContainer = styled.div`
     top : 50%;
     left : 50%;
     transform : translate(-50%, -50%);
-
-    border : 1px dashed white;
 
     //내부 콘텐츠 정렬
     display : flex;

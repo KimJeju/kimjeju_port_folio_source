@@ -2,6 +2,15 @@ import styled from "styled-components"
 import CicleProgress from "./CicleProgress"
 import ShareLine from "../../../Share/ShareLine"
 
+//icons
+import { SiCsharp, SiDotnet } from "react-icons/si";
+import { FaPython, FaReact, FaAws } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { TbBrandDjango } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa6";
+
+
+
 
 const Container = styled.div`
     font-family: WantedSans-Regular;
@@ -19,8 +28,15 @@ const Container = styled.div`
 const Range = styled.div`
 display : flex;
 flex-flow: row wrap;
+justify-content : center;
 line-height : 1;
+`
 
+
+const IconBox = styled.div`
+    width : 100px;
+    height : 75px;
+    margin : 5px;
 `
 
 function Stack() {
@@ -29,15 +45,30 @@ function Stack() {
         <Container>
             <ShareLine title="My Stacks" />
             <Range>
-                <CicleProgress percent={80} title={"C#"} color={"#240F85"} />
-                <CicleProgress percent={90} title={"Python"} color={"#0079FA"}/>
-                <CicleProgress percent={90} title={"JavaScript"} color={"#F5CF01"}/>
-                <CicleProgress percent={60} title={"Net Framework"} color={"#240F85"}/>
-                <CicleProgress percent={80} title={"DJango"} color={"#005C53"}/>
-                <CicleProgress percent={95} title={"React"} color={"#05AFFA"}/>
-                <CicleProgress percent={90} title={"Git"} color={"#F0654D"}/>
-                <CicleProgress percent={40} title={"AWS"} color={"#F09E4D"}/>
-
+                <IconBox>
+                    <FaPython size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <SiCsharp size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <IoLogoJavascript size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <SiDotnet size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <TbBrandDjango size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <FaReact size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <FaGithub size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <FaAws size="72" color="white" />
+                </IconBox>
             </Range>
 
         </Container>

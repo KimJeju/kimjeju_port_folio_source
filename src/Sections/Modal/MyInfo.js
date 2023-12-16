@@ -14,6 +14,9 @@ const InfoContainer = styled.div`
     border-right: 1px dashed white;
     font-family: WantedSans-Regular;
 
+
+    transition : 0.5;
+
     
 `
 

@@ -12,7 +12,8 @@ const CareerContainer = styled.div`
     width : 45rem;
     padding : 20px;
     font-family: WantedSans-Regular;
-    overflow : auto;
+    overflow-x : hidden;
+    overflow-y : scroll;
 
     @media only screen and (max-width: 800px) {
         width: 22rem;
@@ -46,8 +47,9 @@ function MyCareer() {
                 <About />
                 <Position />
                 <Stack />
-                <EducationHistory />
                 <WorkHistory />
+
+                <EducationHistory />
             </CareerContainerMaxWidth800>
         )
     } else {
@@ -56,8 +58,9 @@ function MyCareer() {
                 <About />
                 <Position />
                 <Stack />
-                <EducationHistory />
                 <WorkHistory />
+
+                <EducationHistory />
             </CareerContainer>
         )
     }

@@ -6,7 +6,7 @@ import { FaAws, FaYoutube, FaDiscord } from 'react-icons/fa6'
 
 const Container = styled.div`
     width : 40rem;
-    height : 40rem;
+    height : 75rem;
 
     @media only screen and (max-width: 800px) {
         width: 24rem;
