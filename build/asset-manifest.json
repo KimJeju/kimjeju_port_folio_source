@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/css/main.c380b5bd.css",
-    "main.js": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/js/main.b69bfe5f.js",
-    "static/media/WantedSans-Regular.ttf": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/media/WantedSans-Regular.1cbb8b78c5dff1345db7.ttf",
-    "index.html": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/index.html",
-    "main.c380b5bd.css.map": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/css/main.c380b5bd.css.map",
-    "main.b69bfe5f.js.map": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/js/main.b69bfe5f.js.map"
+    "main.css": "/KimJeju/kimjeju_port_folio_source/static/css/main.26406dc2.css",
+    "main.js": "/KimJeju/kimjeju_port_folio_source/static/js/main.0d63908a.js",
+    "static/media/WantedSans-Regular.ttf": "/KimJeju/kimjeju_port_folio_source/static/media/WantedSans-Regular.1cbb8b78c5dff1345db7.ttf",
+    "index.html": "/KimJeju/kimjeju_port_folio_source/index.html",
+    "main.26406dc2.css.map": "/KimJeju/kimjeju_port_folio_source/static/css/main.26406dc2.css.map",
+    "main.0d63908a.js.map": "/KimJeju/kimjeju_port_folio_source/static/js/main.0d63908a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c380b5bd.css",
-    "static/js/main.b69bfe5f.js"
+    "static/css/main.26406dc2.css",
+    "static/js/main.0d63908a.js"
   ]
 }
