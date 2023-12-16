@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/KimJeju/kimjeju_port_folio_source.git/static/css/main.e6910aa8.css",
-    "main.js": "/KimJeju/kimjeju_port_folio_source.git/static/js/main.bd6f3cef.js",
-    "static/media/WantedSans-Regular.ttf": "/KimJeju/kimjeju_port_folio_source.git/static/media/WantedSans-Regular.1cbb8b78c5dff1345db7.ttf",
-    "index.html": "/KimJeju/kimjeju_port_folio_source.git/index.html",
-    "main.e6910aa8.css.map": "/KimJeju/kimjeju_port_folio_source.git/static/css/main.e6910aa8.css.map",
-    "main.bd6f3cef.js.map": "/KimJeju/kimjeju_port_folio_source.git/static/js/main.bd6f3cef.js.map"
+    "main.css": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/css/main.c380b5bd.css",
+    "main.js": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/js/main.b69bfe5f.js",
+    "static/media/WantedSans-Regular.ttf": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/media/WantedSans-Regular.1cbb8b78c5dff1345db7.ttf",
+    "index.html": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/index.html",
+    "main.c380b5bd.css.map": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/css/main.c380b5bd.css.map",
+    "main.b69bfe5f.js.map": "/KimJeju/kimjeju_port_folio_source/tree/gh-pages/static/js/main.b69bfe5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6910aa8.css",
-    "static/js/main.bd6f3cef.js"
+    "static/css/main.c380b5bd.css",
+    "static/js/main.b69bfe5f.js"
   ]
 }
