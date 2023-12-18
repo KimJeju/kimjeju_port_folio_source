@@ -95,20 +95,44 @@ const Link = styled.a`
 
 //메일
 
-const MailButton = styled.button`
+const MailButton = styled.div`
     background-color : #F23D3D; 
+    display : flex;
+    justify-content : center;
     color : white;
     border : none;
-    height : 50px;
+    width : 250px;
+    height : 30px;
     font-size : 15px;
     transition : 0.5s;
     margin-top : 20px;
     border-radius : 5px;
     margin-right : 20px;
+    margin-left : 30px;
 
     &:hover{
         border-radius : 25px;
         color : black;
+    }
+
+
+    @media only screen and (max-width: 800px) {
+        width : 300px;
+
+    }
+
+`
+
+const MailLink = styled.a`
+    color : white;
+    text-align : center;
+    width : 250px;
+    padding-top : 8px;
+
+
+    @media only screen and (max-width: 800px) {
+        width : 300px;
+
     }
 `
 
@@ -153,7 +177,7 @@ function MyInfo() {
 
                 <ContextBox>
                     <IoMail size="20" color="#F23D3D" />
-                    <ContextText>overrainbow0315@gmail.com</ContextText>
+                    <ContextText>h.hwi9367@gmail.com</ContextText>
                 </ContextBox>
 
                 <ContextBox>
@@ -171,9 +195,13 @@ function MyInfo() {
                     <ContextText><Link href="https://github.com/KimJeju" target='_blank'>Git Hub</Link></ContextText>
                 </ContextBox>
 
-
+{/* 
                 <MailButton onClick={showMailModal}>Send Mail</MailButton>
-                {openMailModal && <SendMail setOpenMailModal={setOpenMailModal} />}
+                {openMailModal && <SendMail setOpenMailModal={setOpenMailModal} />} */}
+                <MailButton>
+                    <MailLink href="mailto:﻿h.hwi9367@gmail.com">Send Mail</MailLink>
+                </MailButton>
+
             </Content>
 
         </InfoContainer>

@@ -42,7 +42,7 @@ function About() {
                 <br/>
                 <Text >
                 이 강점으로 react와 .net framework를 통해 게임운영툴 API 및 웹페이지 작업을 하여 퍼블리싱 협업사에
-                보다 편리한 게임 운영 서비스를 제공하여 요구사항을 충족시킨 경험를 만들었습니다.
+                보다 편리한 게임 운영 서비스를 제공하여  협업사의 요구사항을 충족 및 문제해결한 경험를 만들었습니다.
                 </Text>
             </TextContainer>
         </Container>

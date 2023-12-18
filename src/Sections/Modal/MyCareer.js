@@ -48,7 +48,6 @@ function MyCareer() {
                 <Position />
                 <Stack />
                 <WorkHistory />
-
                 <EducationHistory />
             </CareerContainerMaxWidth800>
         )
