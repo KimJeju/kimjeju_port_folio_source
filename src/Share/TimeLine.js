@@ -9,7 +9,8 @@ const Container = styled.div`
     height : 75rem;
 
     @media only screen and (max-width: 800px) {
-        width: 24rem;
+        width: 23rem;
+
         flex-direction : column;
     }
 `
@@ -17,8 +18,10 @@ const Container = styled.div`
 const Line = styled.hr`
     width :32rem;
     margin-bottom : 5px;
+    margin-right : 5px;
+
     @media only screen and (max-width: 800px) {
-        width: 17rem;
+        width: 10rem;
     }
 
 `

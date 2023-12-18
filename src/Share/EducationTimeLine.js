@@ -9,7 +9,7 @@ const Container = styled.div`
     height : 40rem;
 
     @media only screen and (max-width: 800px) {
-        width: 24rem;
+        width: 23rem;
         height : 33rem;
         flex-direction : column;
     }

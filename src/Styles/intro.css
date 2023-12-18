@@ -69,8 +69,7 @@ hr {
     }
 
     .intro-left-body {
-        width: 20rem;
-        background-color: blue;
+        display: none;
     }
 
     .intro-right-body {
