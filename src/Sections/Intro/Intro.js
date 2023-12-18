@@ -53,7 +53,7 @@ function Intro() {
         <div className="intro-body">
             <div className="intro-left-body">
                 {/* 사진 들어갈 곳 */}
-                {/* <Img src="img/profile.png"/> */}
+                <Img src='../../public/img/profile_img.JPG'/>
             </div>
             <div className="intro-right-body">
                 <span id="name_text">Kim Jeju</span>
