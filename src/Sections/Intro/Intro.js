@@ -2,7 +2,7 @@ import { useState } from "react"
 import styled from "styled-components";
 import "../../Styles/intro.css"
 import ModalPage from "../Modal/ModalPage";
-import SendMail from "../Email/SendMail";
+
 
 
 const ButtonContainer = styled.div`
@@ -53,14 +53,13 @@ function Intro() {
         <div className="intro-body">
             <div className="intro-left-body">
                 {/* 사진 들어갈 곳 */}
-                <Img src='../../public/img/profile_img.JPG'/>
             </div>
             <div className="intro-right-body">
                 <span id="name_text">Kim Jeju</span>
                 <span id="name_domain">Developer BackEnd & Data Engine</span>
                 <hr />
                 <br />
-                <p id="name_introduce">안녕하세요 코드 첨삭을 즐기는 개발자 김제주 ( 김건휘 ) 입니다.</p>
+                <p id="name_introduce">안녕하세요 문제해결을 좋아하는 개발자 김제주 ( 김건휘 ) 입니다.</p>
                 <p id="name_introduce">주로 서버개발 및 인프라 구축, 운영 배포 쪽의 업무를 맡고 있습니다. </p>
                 <p id="name_introduce">제 포트폴리오 재밌게 보시고 저에 대해 궁금하시다면 언제든 연락주세요 !</p>
                 <ButtonContainer>

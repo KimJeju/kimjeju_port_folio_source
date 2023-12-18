@@ -4,6 +4,7 @@ import { IoMdPerson } from "react-icons/io";
 import { FaMapLocationDot, FaPhone, FaGithub, FaBook } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import SendMail from "../Email/SendMail";
+import "../../Styles/intro.css"
 
 
 
@@ -28,13 +29,12 @@ const Profile = styled.div`
      justify-content : center;
      padding : 10px;
      margin-top : 35px;
-
 `
 
 const ProfileImg = styled.div`
     width : 150px;
     height : 200px;
-    background-color : red;
+    background-image : url("../../profile_img.JPG");
 `
 
 //이름과 직업
@@ -127,7 +127,7 @@ function MyInfo() {
     return (
         <InfoContainer>
             <Profile>
-                <ProfileImg />
+                <div className="profile"/>
             </Profile>
 
             <DomainContainer>

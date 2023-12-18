@@ -80,7 +80,7 @@ function TimeLine() {
                         &nbsp;&nbsp;■ 운영툴 <br />
                         &nbsp; &nbsp; &nbsp;- 후앤비 프로젝트 운영툴 디자인 <br />
                         &nbsp; &nbsp; &nbsp;- DB 정보 데이터 테이블화 ( 시각화 ) <br />
-                        &nbsp; &nbsp; &nbsp;- 운영툴 로그인, 로그아웃, 회원가입 기능 제작 < br />
+                        &nbsp; &nbsp; &nbsp;- SSR 방식을 차용, 운영툴 전용 서버 구축< br />
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

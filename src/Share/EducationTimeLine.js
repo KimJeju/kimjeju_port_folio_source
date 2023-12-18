@@ -81,7 +81,7 @@ function EducationTimeLine() {
                 // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">제주관광대학교 ( 졸업 )</h3>
-                    <h4 className="vertical-timeline-element-subtitle">해군기술부사관학과</h4>
+                    <h4 className="vertical-timeline-element-subtitle">국방기술부사관과</h4>
                     <p>
                     군리더쉽, 해전사, 언어논리, 자료해석, 기계공학실무 등 해군 장교 또는 부사관 임관에 필요한 지식 습득
                     </p>

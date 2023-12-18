@@ -1,11 +1,11 @@
 .intro-body {
     width: 40rem;
-    height : 20rem;
+    height: 20rem;
     display: flex;
     justify-content: space-between;
     transition: 0.5s;
     font-family: WantedSans-Regular;
-    
+
 }
 
 
@@ -15,20 +15,26 @@ span {
 
 hr {
     width: 15rem;
-    border : 1px dashed white;
+    border: 1px dashed white;
     opacity: 0.5;
     margin-top: 1rem;
 }
 
 .intro-left-body {
-    background-color: blue;
     width: 15rem;
+    height: 18rem;
+    /* background-image: url(../main_img.JPG); */
+    background-image: url(../main_profile.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid wheat;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
 }
 
 .intro-right-body {
     width: 20rem;
     text-align: left;
-    padding : 5px;
+    padding: 5px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -37,17 +43,17 @@ hr {
 #name_text {
     font-size: 30px;
     font-weight: bold;
-    color : lightgrey;
+    color: lightgrey;
 }
 
 #name_domain {
-    color : grey;
+    color: grey;
 }
 
 #name_introduce {
-    color : lightgrey;
-    font-size : 15px;
-    width : 15rem;
+    color: lightgrey;
+    font-size: 15px;
+    width: 15rem;
     padding-top: 5px;
 }
 
@@ -55,30 +61,37 @@ hr {
     .intro-body {
         display: flex;
         flex-direction: column;
-        height : 40rem;
-        width : 25em;
+        height: 40rem;
+        width: 25em;
         justify-content: center;
         align-items: center;
 
     }
 
     .intro-left-body {
-       width: 20rem;
-       background-color: blue;
+        width: 20rem;
+        background-color: blue;
     }
-    
+
     .intro-right-body {
         width: 20rem;
         display: flex;
     }
 
     #name_introduce {
-        color : lightgrey;
+        color: lightgrey;
         width: 20rem;
     }
 
     hr {
         width: 20rem;
     }
-    
-  }
+}
+
+.profile {
+    width: 150px;
+    height: 200px;
+    background-image: url(../profile_img.JPG);
+    background-size: cover;
+    background-position: center;
+}
