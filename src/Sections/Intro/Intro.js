@@ -59,7 +59,7 @@ function Intro() {
                 <span id="name_domain">Developer BackEnd & Data Engine</span>
                 <hr />
                 <br />
-                <p id="name_introduce">안녕하세요 문제해결을 좋아하는 개발자 김제주 ( 김건휘 ) 입니다.</p>
+                <p id="name_introduce">안녕하세요 문제해결을 즐기는 개발자 김제주 ( 김건휘 ) 입니다.</p>
                 <p id="name_introduce">주로 서버개발 및 인프라 구축, 운영 배포 쪽의 업무를 맡고 있습니다. </p>
                 <p id="name_introduce">제 포트폴리오 재밌게 보시고 저에 대해 궁금하시다면 언제든 연락주세요 !</p>
                 <ButtonContainer>
