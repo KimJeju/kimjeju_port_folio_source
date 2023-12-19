@@ -3,11 +3,12 @@ import CicleProgress from "./CicleProgress"
 import ShareLine from "../../../Share/ShareLine"
 
 //icons
-import { SiCsharp, SiDotnet } from "react-icons/si";
-import { FaPython, FaReact, FaAws } from "react-icons/fa";
+import { SiCsharp, SiDotnet, SiNginx } from "react-icons/si";
+import { FaPython, FaReact, FaAws,FaLinux } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandDjango } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa6";
+
 
 
 
@@ -68,6 +69,12 @@ function Stack() {
                 </IconBox>
                 <IconBox>
                     <FaAws size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <FaLinux size="72" color="white" />
+                </IconBox>
+                <IconBox>
+                    <SiNginx size="72" color="white" />
                 </IconBox>
             </Range>
 
