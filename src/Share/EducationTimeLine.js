@@ -34,7 +34,7 @@ function EducationTimeLine() {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(25, 0, 51)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 0, 51)' }}
-                    date="2022. 04.01 ~ 202. 10.01"
+                    date="2022. 04.01 ~ 2022. 10.01"
                     iconStyle={{ background: 'rgb(25, 0, 51)', color: '#fff' }}
                 // icon={<WorkIcon />}
                 >
