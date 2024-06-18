@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kimjeju_port_folio_source/static/css/main.974ea636.css",
+    "main.js": "/kimjeju_port_folio_source/static/js/main.cbf18254.js",
+    "static/media/WantedSans-Regular.ttf": "/kimjeju_port_folio_source/static/media/WantedSans-Regular.1cbb8b78c5dff1345db7.ttf",
+    "static/media/main_profile.png": "/kimjeju_port_folio_source/static/media/main_profile.fd5fb9c36123ea0569d9.png",
+    "static/media/profile_img.JPG": "/kimjeju_port_folio_source/static/media/profile_img.ab8181c882580f300fbc.JPG",
+    "index.html": "/kimjeju_port_folio_source/index.html",
+    "main.974ea636.css.map": "/kimjeju_port_folio_source/static/css/main.974ea636.css.map",
+    "main.cbf18254.js.map": "/kimjeju_port_folio_source/static/js/main.cbf18254.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.974ea636.css",
+    "static/js/main.cbf18254.js"
+  ]
+}
