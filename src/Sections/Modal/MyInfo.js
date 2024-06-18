@@ -172,7 +172,7 @@ function MyInfo() {
 
                 <ContextBox>
                     <FaPhone size="20" color="#F23D3D" />
-                    <ContextText>82+ 10 8*** ****</ContextText>
+                    <ContextText>82+ 10 9420 9703</ContextText>
                 </ContextBox>
 
                 <ContextBox>
