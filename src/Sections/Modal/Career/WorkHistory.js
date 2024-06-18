@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PersonalTimeLine from "../../../Share/PersonalTimeLine";
 import ShareLine from "../../../Share/ShareLine";
 import TimeLine from "../../../Share/TimeLine";
 
@@ -28,6 +29,8 @@ function WorkHistory(){
         <Container>
          <ShareLine title={"Work History"} />
          <TimeLine />
+         <ShareLine title={"Personal Porject"} />
+        <PersonalTimeLine />
         </Container>
     )
 }

@@ -55,11 +55,11 @@ function Intro() {
                 {/* 사진 들어갈 곳 */}
             </div>
             <div className="intro-right-body">
-                <span id="name_text">Kim Jeju</span>
-                <span id="name_domain">Developer BackEnd & Data Engine</span>
+                <span id="name_text">Kunhwi Kim</span>
+                <span id="name_domain">Developer</span>
                 <hr />
                 <br />
-                <p id="name_introduce">안녕하세요 문제해결을 즐기는 개발자 김제주 ( 김건휘 ) 입니다.</p>
+                <p id="name_introduce">안녕하세요. 취미가 공부인 개발자 김건휘 입니다.</p>
                 <p id="name_introduce">주로 서버개발 및 인프라 구축, 운영 배포 쪽의 업무를 맡고 있습니다. </p>
                 <p id="name_introduce">제 포트폴리오 재밌게 보시고 저에 대해 궁금하시다면 언제든 연락주세요 !</p>
                 <ButtonContainer>

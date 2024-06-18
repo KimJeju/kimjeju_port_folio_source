@@ -155,14 +155,14 @@ function MyInfo() {
             </Profile>
 
             <DomainContainer>
-                <Name>Kim Jeju</Name>
-                <Domain>Developer Server & DevOps </Domain>
+                <Name>Kunhwi, Kim</Name>
+                <Domain>Developer</Domain>
             </DomainContainer>
 
             <Content>
                 <ContextBox>
                     <IoMdPerson size="20" color="#F23D3D" />
-                    <ContextText>Kim Jeju ( Kunhwi, Kim )</ContextText>
+                    <ContextText>Kunhwi, Kim</ContextText>
                 </ContextBox>
 
                 <ContextBox>
@@ -183,11 +183,6 @@ function MyInfo() {
                 <ContextBox>
                     <FaBook size="20" color="#F23D3D" />
                     <ContextText><Link href="https://176cm-developer.tistory.com/" target='_blank'>Tstory Blog</Link></ContextText>
-                </ContextBox>
-
-                <ContextBox>
-                    <FaBook size="20" color="#F23D3D" />
-                    <ContextText><Link href="https://kimjeju.github.io/" target='_blank'>Git Hub Blog</Link></ContextText>
                 </ContextBox>
 
                 <ContextBox>
