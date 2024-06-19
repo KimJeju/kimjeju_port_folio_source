@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Container = styled.div`
     width : 40rem;
-    height : 35rem;
+    height : 40rem;
 
     @media only screen and (max-width: 800px) {
         width: 23rem;
