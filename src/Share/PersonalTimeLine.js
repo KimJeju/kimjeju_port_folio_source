@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Container = styled.div`
     width : 40rem;
-    height : 30rem;
+    height : 35rem;
 
     @media only screen and (max-width: 800px) {
         width: 23rem;
@@ -44,7 +44,7 @@ function PersonalTimeLine() {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(25, 0, 51)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 0, 51)' }}
-                    date="22-11-01 ~ ing"
+                    date="24-05-01 ~ ing "
                     iconStyle={{ background: 'rgb(25, 0, 51)', color: '#fff' }}
                 // icon={<WorkIcon />}
                 >
@@ -58,10 +58,10 @@ function PersonalTimeLine() {
                         &nbsp; &nbsp; &nbsp;- 사용 기술 : fastapi, react, jupyter notebook<br />
                         &nbsp; &nbsp; &nbsp;- 사용 언어 : python, typescript <br />
                         &nbsp; &nbsp; &nbsp;- 배포 : nginx, docker cloudtype, 가비아 ( DNS )<br />
-                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br />
+                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br /><br />
 
 
-                        &nbsp; ■ 프로젝트 기여내용 : <br />
+                        &nbsp; ■ 프로젝트 내용 : <br />
                         &nbsp; &nbsp; &nbsp;- 경찰청 제공 분기별 범죄 발생 통계 데이터 전처리 <br />
                         &nbsp; &nbsp; &nbsp;- FastApi를 사용하여 api 제작 및 서버구축  <br />
                         &nbsp; &nbsp; &nbsp;- Typescript React 를 사용하여 데이터 시각화 웹 애플리케이션 제작 < br />

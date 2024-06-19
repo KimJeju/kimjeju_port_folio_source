@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Container = styled.div`
     width : 40rem;
-    height : 75rem;
+    height : 85rem;
 
     @media only screen and (max-width: 800px) {
         width: 23rem;
@@ -35,7 +35,7 @@ function TimeLine() {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(25, 0, 51)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 0, 51)' }}
-                    date="22-11-01 ~ ing"
+                    date="22-11-01 ~ 2024-02.01"
                     iconStyle={{ background: 'rgb(25, 0, 51)', color: '#fff' }}
                 // icon={<WorkIcon />}
                 >
@@ -48,9 +48,9 @@ function TimeLine() {
                         &nbsp; &nbsp; &nbsp;- 프로젝트 투입 및 개발기간 : 2022-11-01 ~ 2023-10-05 <br />
                         &nbsp; &nbsp; &nbsp;- 라이브 기간 : 23-04-30 ~ 23-10-05 <br />
                         &nbsp; &nbsp; &nbsp;- 서버 사용 기술 : .Net 6.0,react, aws <br />
-                        &nbsp; &nbsp; &nbsp;- 사용 언어 : C# , java script <br /><br />
+                        &nbsp; &nbsp; &nbsp;- 사용 언어 : C# , java script <br />
                         &nbsp; &nbsp; &nbsp;- 배포 :  nginx, aws, <br />
-                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br />
+                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br /><br />
 
                         &nbsp; ■ 프로젝트 기여내용 : <br />
 
@@ -64,7 +64,7 @@ function TimeLine() {
                         &nbsp; &nbsp; &nbsp;- 게임 내 컨텐츠 한계돌파 컨텐츠 서버 API 개발 < br />
                         &nbsp; &nbsp; &nbsp;- QA팀 요구사항 응대 < br />< br />
 
-                        &nbsp;&nbsp;■ 운영툴 <br />
+                        &nbsp;&nbsp;■ 운영 대시보드 <br />
                         &nbsp; &nbsp; &nbsp;- 유저정보를 시각화 ( 테이블 ) 화 하여 제공 <br />
                         &nbsp; &nbsp; &nbsp;- 퍼블리셔 회사에 운영툴을 제공함으로서 라이브 서비스의 편의성제공 <br />
                         &nbsp; &nbsp; &nbsp;- 게임 내 보상 지급 및 누락보상 지급에 편의성 제공<br />
@@ -75,16 +75,16 @@ function TimeLine() {
                         <Line />
                         <br />
                         ■ 후앤비 <br />
-                        - 프로젝트 투입 및 개발기간 : 2023-10-05 ~ 2024-02-01 <br />
-                        - 사용 기술 : blazor, .net 7.0<br />
-                        - 사용언어 : C# <br />
-                        - 배포 :  nginx, aws, <br />
-                        - 버전관리 : git, svn<br />
+                        &nbsp; &nbsp; &nbsp;- 프로젝트 투입 및 개발기간 : 2023-10-05 ~ 2024-02-01 <br />
+                        &nbsp; &nbsp; &nbsp;- 사용 기술 : blazor, .net 7.0<br />
+                        &nbsp; &nbsp; &nbsp;- 사용언어 : C# <br />
+                        &nbsp; &nbsp; &nbsp;- 배포 :  nginx, aws, <br />
+                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br />
                 
-                        &nbsp; ■ 프로젝트 기여내용 : <br />
+                        &nbsp; ■ 프로젝트 기여내용 : <br /> <br />
 
-                        &nbsp;&nbsp;■ 담당업무 
-                        &nbsp; &nbsp; &nbsp;후앤비 게임 운영 대시보드 제작  <br /><br />
+                        &nbsp;&nbsp;■ 담당업무 <br />
+                        &nbsp; &nbsp; &nbsp;- 후앤비 게임 운영 대시보드 제작  <br /><br />
 
                         &nbsp;&nbsp;■ 운영툴 <br />
                         &nbsp; &nbsp; &nbsp;- 후앤비 프로젝트 운영용 대시보드 디자인 <br />
