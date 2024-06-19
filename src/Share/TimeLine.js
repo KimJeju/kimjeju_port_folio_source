@@ -47,8 +47,10 @@ function TimeLine() {
                         &nbsp;■ 전국제패M <br />
                         &nbsp; &nbsp; &nbsp;- 프로젝트 투입 및 개발기간 : 2022-11-01 ~ 2023-10-05 <br />
                         &nbsp; &nbsp; &nbsp;- 라이브 기간 : 23-04-30 ~ 23-10-05 <br />
-                        &nbsp; &nbsp; &nbsp;- 서버 사용 기술 : .Net Framework, nginx, aws, react, aws <br />
+                        &nbsp; &nbsp; &nbsp;- 서버 사용 기술 : .Net 6.0,react, aws <br />
                         &nbsp; &nbsp; &nbsp;- 사용 언어 : C# , java script <br /><br />
+                        &nbsp; &nbsp; &nbsp;- 배포 :  nginx, aws, <br />
+                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br />
                         &nbsp; &nbsp; &nbsp;- 담당업무 : <br />
                         &nbsp; &nbsp; &nbsp;- 전국제패M 서버 API 개발 및 게임 운영툴 개발 <br />
                         &nbsp; &nbsp; &nbsp;- 전국재패M 라이브 서비스 및 컨텐츠 API, 운영툴 업데이트 <br /><br />
@@ -72,17 +74,20 @@ function TimeLine() {
                         <Line />
                         <br />
                         ■ 후앤비 <br />
-                        - 프로젝트 투입 및 개발기간 : 2023-10-05 ~ ing <br />
-                        - 사용 기술 : blazor <br />
+                        - 프로젝트 투입 및 개발기간 : 2023-10-05 ~ 2024-02-01 <br />
+                        - 사용 기술 : blazor, .net 7.0<br />
                         - 사용언어 : C# <br />
+                        - 배포 :  nginx, aws, <br />
+                        - 버전관리 : git, svn<br />
+                        
                         - 담당업무 : 후앤비 게임 운영툴 탬플릿 제작 <br /><br />
 
                         &nbsp; ■ 프로젝트 기여내용 : <br />
 
                         &nbsp;&nbsp;■ 운영툴 <br />
                         &nbsp; &nbsp; &nbsp;- 후앤비 프로젝트 운영툴 디자인 <br />
-                        &nbsp; &nbsp; &nbsp;- DB 정보 데이터 테이블화 ( 시각화 ) <br />
-                        &nbsp; &nbsp; &nbsp;- SSR 방식을 차용, 운영툴 전용 서버 구축< br />
+                        &nbsp; &nbsp; &nbsp;- DB 정보 데이터 ( 시각화 ) <br />
+                        &nbsp; &nbsp; &nbsp;- SSR 방식 게임 운영용 대시보드 구축 및 배포< br />
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

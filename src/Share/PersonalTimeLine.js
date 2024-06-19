@@ -57,7 +57,9 @@ function PersonalTimeLine() {
                         &nbsp; &nbsp; &nbsp;- 라이브 기간 : 23-06-15 ~ ing <br />
                         &nbsp; &nbsp; &nbsp;- 사용 기술 : fastapi, react, jupyter notebook<br />
                         &nbsp; &nbsp; &nbsp;- 사용 언어 : python, typescript <br />
-                        &nbsp; &nbsp; &nbsp;- 배포 : nginx, docker cloudtype, 가비아 ( DNS )<br /><br />
+                        &nbsp; &nbsp; &nbsp;- 배포 : nginx, docker cloudtype, 가비아 ( DNS )<br />
+                        &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br />
+
 
                         &nbsp; ■ 프로젝트 기여내용 : <br />
                         &nbsp; &nbsp; &nbsp;- 경찰청 제공 분기별 범죄 발생 통계 데이터 전처리 <br />
