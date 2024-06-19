@@ -56,11 +56,10 @@ function PersonalTimeLine() {
                         &nbsp; &nbsp; &nbsp;- 프로젝트 투입 및 개발기간 : 2024-05-01 ~ ing<br />
                         &nbsp; &nbsp; &nbsp;- 라이브 기간 : 23-06-15 ~ ing <br />
                         &nbsp; &nbsp; &nbsp;- 사용 기술 : fastapi, react, jupyter notebook<br />
-                        &nbsp; &nbsp; &nbsp;- 사용 언어 : python, typescript <br /><br />
-                        &nbsp; &nbsp; &nbsp;- 배포 : nginx, docker cloudtype, 가비아 ( DNS )<br />
+                        &nbsp; &nbsp; &nbsp;- 사용 언어 : python, typescript <br />
+                        &nbsp; &nbsp; &nbsp;- 배포 : nginx, docker cloudtype, 가비아 ( DNS )<br /><br />
 
                         &nbsp; ■ 프로젝트 기여내용 : <br />
-
                         &nbsp; &nbsp; &nbsp;- 경찰청 제공 분기별 범죄 발생 통계 데이터 전처리 <br />
                         &nbsp; &nbsp; &nbsp;- FastApi를 사용하여 api 제작 및 서버구축  <br />
                         &nbsp; &nbsp; &nbsp;- Typescript React 를 사용하여 데이터 시각화 웹 애플리케이션 제작 < br />
