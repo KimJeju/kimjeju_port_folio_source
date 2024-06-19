@@ -55,8 +55,8 @@ function TimeLine() {
                         &nbsp; ■ 프로젝트 기여내용 : <br />
 
                         &nbsp;&nbsp;■ 담당업무 : <br />
-                        &nbsp; &nbsp; &nbsp;- 전국제패M 서버 API 개발 및 게임 운영툴 개발 <br />
-                        &nbsp; &nbsp; &nbsp;- 전국재패M 라이브 서비스 및 컨텐츠 API, 운영툴 업데이트 <br /><br />
+                        &nbsp; &nbsp; &nbsp;- 전국제패M 서버 API 개발 및 게임 운영 대시보드 개발 <br />
+                        &nbsp; &nbsp; &nbsp;- 전국재패M 라이브 서비스 및 컨텐츠 API, 운영 대시보드 업데이트 <br /><br />
 
                         &nbsp;&nbsp;■ 인게임 <br />
                         &nbsp; &nbsp; &nbsp;- 메타테이블 ( csv ) 파일 관리 및 패치 <br />
@@ -80,13 +80,15 @@ function TimeLine() {
                         - 사용언어 : C# <br />
                         - 배포 :  nginx, aws, <br />
                         - 버전관리 : git, svn<br />
-                        
-                        - 담당업무 : 후앤비 게임 운영툴 탬플릿 제작 <br /><br />
-
+                
                         &nbsp; ■ 프로젝트 기여내용 : <br />
 
+                        &nbsp;&nbsp;■ 담당업무 
+                        &nbsp; &nbsp; &nbsp;후앤비 게임 운영 대시보드 제작  <br /><br />
+
                         &nbsp;&nbsp;■ 운영툴 <br />
-                        &nbsp; &nbsp; &nbsp;- 후앤비 프로젝트 운영툴 디자인 <br />
+                        &nbsp; &nbsp; &nbsp;- 후앤비 프로젝트 운영용 대시보드 디자인 <br />
+                        &nbsp; &nbsp; &nbsp;- 후앤비 프로젝트 운영용 대시보드 api 제작  <br />
                         &nbsp; &nbsp; &nbsp;- DB 정보 데이터 ( 시각화 ) <br />
                         &nbsp; &nbsp; &nbsp;- SSR 방식 게임 운영용 대시보드 구축 및 배포< br />
                     </p>
