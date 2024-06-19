@@ -55,8 +55,9 @@ function PersonalTimeLine() {
                         <Line />
                         &nbsp; &nbsp; &nbsp;- 프로젝트 투입 및 개발기간 : 2024-05-01 ~ ing<br />
                         &nbsp; &nbsp; &nbsp;- 라이브 기간 : 23-06-15 ~ ing <br />
-                        &nbsp; &nbsp; &nbsp;- 사용 기술 : fastapi, react, jupyter notebook, cloudtype<br />
+                        &nbsp; &nbsp; &nbsp;- 사용 기술 : fastapi, react, jupyter notebook<br />
                         &nbsp; &nbsp; &nbsp;- 사용 언어 : python, typescript <br /><br />
+                        &nbsp; &nbsp; &nbsp;- 배포 : nginx, docker cloudtype, 가비아 ( DNS )<br />
 
                         &nbsp; ■ 프로젝트 기여내용 : <br />
 
