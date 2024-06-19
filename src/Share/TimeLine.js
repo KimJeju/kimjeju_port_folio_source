@@ -51,11 +51,12 @@ function TimeLine() {
                         &nbsp; &nbsp; &nbsp;- 사용 언어 : C# , java script <br /><br />
                         &nbsp; &nbsp; &nbsp;- 배포 :  nginx, aws, <br />
                         &nbsp; &nbsp; &nbsp;- 버전관리 : git, svn<br />
-                        &nbsp; &nbsp; &nbsp;- 담당업무 : <br />
-                        &nbsp; &nbsp; &nbsp;- 전국제패M 서버 API 개발 및 게임 운영툴 개발 <br />
-                        &nbsp; &nbsp; &nbsp;- 전국재패M 라이브 서비스 및 컨텐츠 API, 운영툴 업데이트 <br /><br />
 
                         &nbsp; ■ 프로젝트 기여내용 : <br />
+
+                        &nbsp;&nbsp;■ 담당업무 : <br />
+                        &nbsp; &nbsp; &nbsp;- 전국제패M 서버 API 개발 및 게임 운영툴 개발 <br />
+                        &nbsp; &nbsp; &nbsp;- 전국재패M 라이브 서비스 및 컨텐츠 API, 운영툴 업데이트 <br /><br />
 
                         &nbsp;&nbsp;■ 인게임 <br />
                         &nbsp; &nbsp; &nbsp;- 메타테이블 ( csv ) 파일 관리 및 패치 <br />
